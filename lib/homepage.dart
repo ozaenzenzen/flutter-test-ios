@@ -18,15 +18,16 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         alignment: Alignment.center,
         child: ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const SecondPage(),
-                ),
-              );
-            },
-            child: Text("Testing app")),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const SecondPage(),
+              ),
+            );
+          },
+          child: Text("Testing app"),
+        ),
       ),
     );
   }
